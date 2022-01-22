@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"fiVSO":[function(require,module,exports) {
+})({"kn9T2":[function(require,module,exports) {
 var Refresh = require('react-refresh/runtime');
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {
@@ -153,11 +153,11 @@ window.$RefreshSig$ = function() {
     };
 };
 
-},{"react-refresh/runtime":"40yrY"}],"40yrY":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"786KC":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-refresh-runtime.development.js');
 
-},{"./cjs/react-refresh-runtime.development.js":"5qMzL"}],"5qMzL":[function(require,module,exports) {
+},{"./cjs/react-refresh-runtime.development.js":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -620,7 +620,7 @@ module.exports = require('./cjs/react-refresh-runtime.development.js');
     exports.setSignature = setSignature;
 })();
 
-},{}],"bWKhU":[function(require,module,exports) {
+},{}],"6Oejs":[function(require,module,exports) {
 "use strict";
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -1021,11 +1021,11 @@ _reactDomDefault.default.render(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_app.App, {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"5lLpV","react-dom":"kVgUa","./App":"7F5Te","@parcel/transformer-js/src/esmodule-helpers.js":"aqs3m","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"2lhab"}],"5lLpV":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","./App":"7F5Te","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-jsx-dev-runtime.development.js');
 
-},{"./cjs/react-jsx-dev-runtime.development.js":"c4v57"}],"c4v57":[function(require,module,exports) {
+},{"./cjs/react-jsx-dev-runtime.development.js":"48uCM"}],"48uCM":[function(require,module,exports) {
 /** @license React v17.0.2
  * react-jsx-dev-runtime.development.js
  *
@@ -1816,11 +1816,11 @@ module.exports = require('./cjs/react-jsx-dev-runtime.development.js');
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"react":"6LTsZ","object-assign":"4cKAa"}],"6LTsZ":[function(require,module,exports) {
+},{"react":"21dqq","object-assign":"7OXxh"}],"21dqq":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react.development.js');
 
-},{"./cjs/react.development.js":"4q5ba"}],"4q5ba":[function(require,module,exports) {
+},{"./cjs/react.development.js":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /** @license React v17.0.2
  * react.development.js
  *
@@ -3419,7 +3419,7 @@ module.exports = require('./cjs/react.development.js');
     exports.version = ReactVersion;
 })();
 
-},{"object-assign":"4cKAa"}],"4cKAa":[function(require,module,exports) {
+},{"object-assign":"7OXxh"}],"7OXxh":[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -3477,7 +3477,7 @@ module.exports = shouldUseNative() ? Object.assign : function(target, source) {
     return to;
 };
 
-},{}],"kVgUa":[function(require,module,exports) {
+},{}],"j6uA9":[function(require,module,exports) {
 'use strict';
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined' || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== 'function') return;
@@ -3493,7 +3493,7 @@ function checkDCE() {
 }
 module.exports = require('./cjs/react-dom.development.js');
 
-},{"./cjs/react-dom.development.js":"2QDKw"}],"2QDKw":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /** @license React v17.0.2
  * react-dom.development.js
  *
@@ -22034,11 +22034,11 @@ module.exports = require('./cjs/react-dom.development.js');
     exports.version = ReactVersion;
 })();
 
-},{"react":"6LTsZ","object-assign":"4cKAa","scheduler":"glgdK","scheduler/tracing":"jxVih"}],"glgdK":[function(require,module,exports) {
+},{"react":"21dqq","object-assign":"7OXxh","scheduler":"juvHo","scheduler/tracing":"9ZY7A"}],"juvHo":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/scheduler.development.js');
 
-},{"./cjs/scheduler.development.js":"72gtT"}],"72gtT":[function(require,module,exports) {
+},{"./cjs/scheduler.development.js":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /** @license React v0.20.2
  * scheduler.development.js
  *
@@ -22511,11 +22511,11 @@ module.exports = require('./cjs/scheduler.development.js');
     exports.unstable_wrapCallback = unstable_wrapCallback;
 })();
 
-},{}],"jxVih":[function(require,module,exports) {
+},{}],"9ZY7A":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/scheduler-tracing.development.js');
 
-},{"./cjs/scheduler-tracing.development.js":"2eaRo"}],"2eaRo":[function(require,module,exports) {
+},{"./cjs/scheduler-tracing.development.js":"dClkR"}],"dClkR":[function(require,module,exports) {
 /** @license React v0.20.2
  * scheduler-tracing.development.js
  *
@@ -22779,15 +22779,20 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "App", ()=>App
 );
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+let Haha;
+(function(Haha1) {
+    Haha1["hello"] = "haha";
+})(Haha || (Haha = {
+}));
 function App() {
     function say_hello(message) {
         return message;
     }
     return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-        children: say_hello("wow")
+        children: say_hello(Haha.hello)
     }, void 0, false, {
         fileName: "src/App.tsx",
-        lineNumber: 5,
+        lineNumber: 9,
         columnNumber: 10
     }, this));
 }
@@ -22800,7 +22805,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"5lLpV","@parcel/transformer-js/src/esmodule-helpers.js":"aqs3m","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"2lhab"}],"aqs3m":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -22830,7 +22835,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"2lhab":[function(require,module,exports) {
+},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require('react-refresh/runtime');
 function debounce(func, delay) {
@@ -22950,6 +22955,6 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"40yrY"}]},["fiVSO","bWKhU","4aBH6"], "4aBH6", "parcelRequire5fae")
+},{"react-refresh/runtime":"786KC"}]},["kn9T2","6Oejs","4aBH6"], "4aBH6", "parcelRequire5fae")
 
 //# sourceMappingURL=index.2d3ace14.js.map

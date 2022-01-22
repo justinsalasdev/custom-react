@@ -1037,6 +1037,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@parcel/ts-utils@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "@parcel/ts-utils@npm:2.2.1"
+  dependencies:
+    nullthrows: ^1.1.1
+  peerDependencies:
+    typescript: ">=3.0.0"
+  checksum: 9781ff400390d3193cbf507bcd705aebbbcca3bafef61ed58ad96a7bc59f5abdc48320cfd24ae7f3d92cbd5a59187285b99c581d4f6a4f53298486d70e4da509
+  languageName: node
+  linkType: hard
+
 "@parcel/types@npm:^2.2.1":
   version: 2.2.1
   resolution: "@parcel/types@npm:2.2.1"
@@ -1078,6 +1089,21 @@ __metadata:
     open: ^7.0.3
     terminal-link: ^2.1.1
   checksum: 0ace1f8f931e29f2686512646fd642940fa059c6bfb29da4e5f649748357d40d0c78450c3a10cbe8306175008394ceffa963c7778faf31d883e14b254f5df827
+  languageName: node
+  linkType: hard
+
+"@parcel/validator-typescript@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "@parcel/validator-typescript@npm:2.2.1"
+  dependencies:
+    "@parcel/diagnostic": ^2.2.1
+    "@parcel/plugin": ^2.2.1
+    "@parcel/ts-utils": ^2.2.1
+    "@parcel/types": ^2.2.1
+    "@parcel/utils": ^2.2.1
+  peerDependencies:
+    typescript: ">=3.0.0"
+  checksum: f56279b6ba5e2eca21425449707859a828bb672ef6a8d0c5108f3406900b119b57517f31cfd022dacd3b1783ef98f9e92e49ea86ff5f0f4685c94cbace628db8
   languageName: node
   linkType: hard
 
@@ -2054,6 +2080,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "custom-react@workspace:."
   dependencies:
+    "@parcel/validator-typescript": ^2.2.1
     "@types/react": ^17.0.38
     "@types/react-dom": ^17.0.11
     parcel: ^2.2.1
